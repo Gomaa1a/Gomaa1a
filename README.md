@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg" alt="Ahmed Gomaa — Data & AI Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/Gomaa1a/Gomaa1a/main/hero.svg" alt="Ahmed Gomaa — Data & AI Engineer" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=45&lines=Dashboards+for+operators%2C+not+analysts.;Read-only+pipelines+that+never+touch+live+ERP.;AI+voice+products+that+actually+ship.;Automation+so+nobody+re-types+a+spreadsheet." alt="What I build" />
 
