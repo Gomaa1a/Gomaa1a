@@ -78,50 +78,15 @@ flowchart LR
 
 ---
 
-## Selected public work
+## Engineering activity
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
+<img src="https://raw.githubusercontent.com/Gomaa1a/Gomaa1a/main/stats.svg" alt="280 commits, 64 merged pull requests, 27 projects, shipping since March 2025" width="100%" />
+</div>
 
-**[HireReady](https://github.com/Gomaa1a/HireReady)**
+I work in pull requests even on solo projects: **64 of the 65 I have opened are merged**, each one a scoped change with a version tag, reviewed before it lands. A representative run from one analytics product — `feat(products): global filters and quantity-first KPIs`, then `perf: 120-day window and 20-minute refresh`, then `perf: precompute day buckets, one-pass velocity` after a release measured slow.
 
-An AI voice interview coach. Runs a live interview tailored to the candidate's CV, then returns an honest, scored performance report so each session is measurably better than the last.
-
-<sub>React · Supabase · OpenAI · ElevenLabs</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[Frozen Capital Dashboard](https://github.com/Gomaa1a/dabboos-frozen-capital)**
-
-Splits a distributor's stuck inventory into truly dead and seasonally dormant capital. Aging buckets, a live idle-threshold slider, and a seasonality heatmap answering what to clear and when. Bilingual Arabic and English.
-
-<sub>JavaScript · Chart.js</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Law Firm SaaS](https://github.com/Gomaa1a/LawFirm-SAAS-Model)**
-
-A demo SaaS model built for law firms.
-
-<sub>TypeScript · React</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[Retail Analytics Dashboard](https://github.com/Gomaa1a/E-commerce-Use-case-Data-Analytics-Dashboard-)**
-
-A year of beverage retail sales analysed from raw Excel — net profit, growth trends, best and worst products, salesperson performance.
-
-<sub>Python · pandas · Chart.js</sub>
-
-</td>
-</tr>
-</table>
+Public repositories here are mostly work in progress. The finished systems live in private client repositories.
 
 ---
 
