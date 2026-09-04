@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-label="Ahmed Gomaa - Data and AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#121c33"/>
+      <stop offset="100%" stop-color="#0a1626"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="60%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="flow" d="M638 118 C 690 58, 726 178, 782 118 C 838 58, 872 178, 926 118"/>
+  </defs>
+
+  <rect width="1000" height="270" rx="10" fill="url(#bg)"/>
+  <g stroke="#1e293b" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="68" x2="1000" y2="68"/>
+    <line x1="0" y1="136" x2="1000" y2="136"/>
+    <line x1="0" y1="204" x2="1000" y2="204"/>
+  </g>
+
+  <text x="58" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="url(#shine)" filter="url(#glow)">Ahmed Gomaa</text>
+  <text x="60" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#94a3b8">Data &amp; AI Engineer</text>
+  <text x="60" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#64748b">
+    Messy ERP exports in. Decisions out.
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="4.5s" repeatCount="indefinite"/>
+  </text>
+  <rect x="60" y="206" width="0" height="3" rx="1.5" fill="url(#shine)">
+    <animate attributeName="width" values="0;300;300;0" keyTimes="0;0.35;0.8;1" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <use href="#flow" xlink:href="#flow" fill="none" stroke="#1e3a5f" stroke-width="2.5"/>
+  <g fill="#38bdf8">
+    <circle r="5"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#flow" xlink:href="#flow"/></animateMotion></circle>
+    <circle r="4" fill="#a78bfa"><animateMotion dur="4s" begin="1.3s" repeatCount="indefinite"><mpath href="#flow" xlink:href="#flow"/></animateMotion></circle>
+    <circle r="4" fill="#34d399"><animateMotion dur="4s" begin="2.6s" repeatCount="indefinite"><mpath href="#flow" xlink:href="#flow"/></animateMotion></circle>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    <circle cx="638" cy="118" r="9" fill="#0b1220" stroke="#38bdf8" stroke-width="2">
+      <animate attributeName="r" values="9;12;9" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="638" y="146">ERP</text>
+    <circle cx="782" cy="118" r="9" fill="#0b1220" stroke="#a78bfa" stroke-width="2">
+      <animate attributeName="r" values="9;12;9" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="782" y="146">SYNC</text>
+    <circle cx="926" cy="118" r="9" fill="#0b1220" stroke="#34d399" stroke-width="2">
+      <animate attributeName="r" values="9;12;9" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="926" y="146">INSIGHT</text>
+  </g>
+
+  <g>
+    <rect x="638" y="200" width="26" height="20" rx="3" fill="#38bdf8" opacity="0.85">
+      <animate attributeName="height" values="20;54;20" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;166;200" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="676" y="200" width="26" height="34" rx="3" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="height" values="34;14;34" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;186;200" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="714" y="200" width="26" height="26" rx="3" fill="#34d399" opacity="0.85">
+      <animate attributeName="height" values="26;60;26" dur="3.4s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;166;200" dur="3.4s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="752" y="200" width="26" height="44" rx="3" fill="#38bdf8" opacity="0.85">
+      <animate attributeName="height" values="44;18;44" dur="3.4s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;182;200" dur="3.4s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="790" y="200" width="26" height="22" rx="3" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="height" values="22;48;22" dur="3.4s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;174;200" dur="3.4s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="828" y="200" width="26" height="38" rx="3" fill="#34d399" opacity="0.85">
+      <animate attributeName="height" values="38;16;38" dur="3.4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;184;200" dur="3.4s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="866" y="200" width="26" height="28" rx="3" fill="#38bdf8" opacity="0.85">
+      <animate attributeName="height" values="28;56;28" dur="3.4s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;172;200" dur="3.4s" begin="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="904" y="200" width="26" height="48" rx="3" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="height" values="48;20;48" dur="3.4s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="200;180;200" dur="3.4s" begin="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <line x1="630" y1="221" x2="944" y2="221" stroke="#1e293b" stroke-width="2"/>
+  </g>
+</svg>
